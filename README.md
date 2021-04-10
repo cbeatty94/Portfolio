@@ -20,4 +20,7 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
+![PortfolioTop](https://user-images.githubusercontent.com/78604328/114286852-79f2e000-9a30-11eb-9209-911841ea0dca.png)
+![PortfolioBottom](https://user-images.githubusercontent.com/78604328/114286855-7c553a00-9a30-11eb-98a0-f8a0924df3fa.png)
+
 https://cbeatty94.github.io/Portfolio/
