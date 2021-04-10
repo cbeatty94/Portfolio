@@ -56,7 +56,7 @@ body {
     width: 100%;
     margin-bottom: 25px;
     position: relative;
-    background-image: url("../images/IMG-1421.JPG");
+    background-image: url("/images/IMG-1421.JPG");
     background-size: cover;
     background-color: #cccccc;
 }
@@ -138,28 +138,28 @@ p {
     font-style: italic;
 }
 .project1 {
-    background-image: url("../images/action-bronson.jpg");
+    background-image: url("/images/action-bronson.jpg");
     background-size: cover;
     width: 90%;
     height: 50%;
 }
 
 .project2 {
-    background-image: url("../images/IMG-1430.JPG");
+    background-image: url("/images/IMG-1430.JPG");
     background-size: cover;
     width: 30%;
     height: 40%;
 }
 
 .project3 {
-    background-image: url("../images/IMG-E3740.JPG");
+    background-image: url("/images/IMG-E3740.JPG");
     background-size: cover;
     width: 30%;
     height: 40%;
 }
 
 .project4 {
-    background-image: url("../images/P4280072.JPG");
+    background-image: url("/images/P4280072.JPG");
     background-size: cover;
     width: 30%;
     height: 40%;
