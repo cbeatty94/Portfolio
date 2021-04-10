@@ -1,0 +1,148 @@
+body {
+    background-color: #23bfdac9;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    height: 110px;
+    line-height: 50px;
+}
+
+.headshot {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header nav {
+    padding-top: 55px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.hero {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    position: relative;
+    background-image: url("/Portfolio/images/IMG-1421.JPG");
+    background-size: cover;
+    background-color: #cccccc;
+}
+
+.subtitle {
+    position:absolute;
+    bottom:0;
+    right:2%;
+    color:lightcoral;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-right {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:25px;
+    margin-left:25px;
+}
+
+
+.work {
+    height: 600px;
+}
+
+aside {
+    border-right: solid 5px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.move-left {
+    height: 150px;
+    width: 200px;
+    text-align: right;
+    font-size: 60px;
+    margin-right: 25px;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+.work-links {
+    position: relative;
+    display: flex;
+    flex: 1 3 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.work-image1 {
+    width:100%;
+    height: auto;
+}
+.work-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+
+.project {
+    position: absolute;
+    top: 8px;
+    left: 70px
+}
+
+.contacts ul {
+    list-style-type: none;
+}
+
+.contacts ul li {
+    display: inline-block;
+    margin: 25px;
+}
+
+.project1 {
+    background-image: url("/Portfolio/images/action-bronson.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 25%;
+}
+
+.project2 {
+    background-image: url("/Portfolio/images/IMG-1430.JPG");
+    background-size: cover;
+}
