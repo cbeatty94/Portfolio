@@ -1,3 +1,7 @@
+/* a:hover {
+    background-color: darkkhaki;
+} */
+
 body {
     background-color: #23bfdac9;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -9,6 +13,10 @@ body {
     color: #ffffff;
     height: 110px;
     line-height: 50px;
+}
+
+.header nav ul li a:hover {
+    background-color: darksalmon;
 }
 
 .headshot {
@@ -98,7 +106,7 @@ p {
     font-size: 20px;
 }
 
-.work-links {
+.projects {
     position: relative;
     display: flex;
     flex: 1 3 0;
@@ -120,29 +128,57 @@ p {
     position: relative;
 }
 
-.project {
-    position: absolute;
-    top: 8px;
-    left: 70px
+.projects{
+    color:crimson;
+    font-size: larger;
+    font-style: italic;
 }
-
-.contacts ul {
-    list-style-type: none;
-}
-
-.contacts ul li {
-    display: inline-block;
-    margin: 25px;
-}
-
 .project1 {
     background-image: url("/Portfolio/images/action-bronson.jpg");
     background-size: cover;
-    width: 100%;
-    height: 25%;
+    width: 90%;
+    height: 50%;
 }
 
 .project2 {
     background-image: url("/Portfolio/images/IMG-1430.JPG");
     background-size: cover;
+    width: 30%;
+    height: 40%;
+}
+
+.project3 {
+    background-image: url("/Portfolio/images/IMG-E3740.JPG");
+    background-size: cover;
+    width: 30%;
+    height: 40%;
+}
+
+.project4 {
+    background-image: url("/Portfolio/images/P4280072.JPG");
+    background-size: cover;
+    width: 30%;
+    height: 40%;
+}
+
+.project-links {
+    display: block;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}   
+
+.contacts ul {
+        list-style-type: none;
+}
+    
+.contacts ul li {
+        display: inline-block;
+        margin: 25px;
+}
+
+.contacts ul li a:hover {
+    background-color: darksalmon;
 }
