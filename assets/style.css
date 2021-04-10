@@ -1,7 +1,3 @@
-/* a:hover {
-    background-color: darkkhaki;
-} */
-
 body {
     background-color: #23bfdac9;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,10 +17,9 @@ body {
     margin-right: 10px;
 }
 
-
 .header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 4vw;
 }
 
 .header nav {
@@ -32,6 +27,15 @@ body {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+}
+
+@media screen and (max-width: 925px) {
+    .header nav {
+        padding-top: 0;
+        width: 35vw;
+        font-size: 2vw;
+    }
+    
 }
 
 .header nav ul {
